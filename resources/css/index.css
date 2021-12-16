@@ -1,41 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
 
-<head>
-  <title>
-    CSS
-  </title>
-  <link href="../css/index.css" rel="stylesheet">
-</head>
+nav li {
+  position: relative;
+  float:left;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 0px;
+  line-height: 75px;
+  align-items: center;
+  list-style: none;
+}
 
-<body>
-  <nav>
-    <ul class="navigation">
-      <li><a href="../../index.html">Home</a></li>
-      <li><a href="#html">html</a></li>
-      <li><a href="./css.html">CSS</a></li>
-      <li><a href="#Developer resources">Developer resources</a></li>
-      <li><a href="#git">Git</a></li>
-    </ul>
-  </nav>
+nav a:hover {
+  color: black;
+  background-color: powderblue;
+}
 
-  <div class="display-center">
-    <h1>CSS</h1>
-    <article id=CSS>
-      <p>You use CSS to alter text and images on a website.</p>
-      <h2>Examples</h2>
-      <ul>
-        <li>font-family</li>
-        <li>font-size</li>
-        <li>font-weight</li>
-        <li>text-align</li>
-        <li>background-color</li>
-        <li>color</li>
-        <li>opacity</li>
-        <li>background-image</li>
-      </ul>
-    </article>
-    </div>
-</body>
+nav a {
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Georgia;
+  text-align:left;
+  color: powderblue;
+  background-color: black;
+}
 
-</html>
+body {
+  background:rgb(16, 22, 47);
+}
+
+li {
+  list-style: square;
+}
+
+.display-center {
+  padding-top: 150px;
+  margin-left: 650px;
+  margin-right: 650px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+p,
+article { 
+  font-family: Helvetica;
+  color:rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.hyperlink {
+  color:powderblue;
+}
+
+.hyperlink:hover {
+  color: blueviolet;
+}
+
+#git img {
+  height: 450px;
+}
+.no-pic {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-style: italic;
+}
+
