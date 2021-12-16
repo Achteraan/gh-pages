@@ -1,45 +1,41 @@
-* {
-  font-size: 22px;
-  line-height: 24px;
-  text-align: justify;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-h1 {
-  font-family: Georgia;
-  color:azure;
-  font-size: 40px;
-}
+<head>
+  <title>
+    CSS
+  </title>
+  <link href="../css/index.css" rel="stylesheet">
+</head>
 
-p,
-article { 
-  font-family: Helvetica;
-  color:azure;
-  font-size: 28px;
-}
+<body>
+  <nav>
+    <ul class="navigation">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="#html">html</a></li>
+      <li><a href="./css.html">CSS</a></li>
+      <li><a href="#Developer resources">Developer resources</a></li>
+      <li><a href="#git">Git</a></li>
+    </ul>
+  </nav>
 
-* {
-  font-family: Georgia;
-  list-style: square;
-  text-align: center;
-}
+  <div class="display-center">
+    <h1>CSS</h1>
+    <article id=CSS>
+      <p>You use CSS to alter text and images on a website.</p>
+      <h2>Examples</h2>
+      <ul>
+        <li>font-family</li>
+        <li>font-size</li>
+        <li>font-weight</li>
+        <li>text-align</li>
+        <li>background-color</li>
+        <li>color</li>
+        <li>opacity</li>
+        <li>background-image</li>
+      </ul>
+    </article>
+    </div>
+</body>
 
-a {
-  color:powderblue;
-}
-a:hover {
-  color: blueviolet;
-}
-
-body {
-  background:#141E30
-}
-
-#git img {
-  height: 450px;
-}
-.no-pic {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: gray;
-  font-style: italic;
-}
+</html>
