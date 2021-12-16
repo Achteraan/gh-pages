@@ -1,0 +1,45 @@
+* {
+  font-size: 22px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: Georgia;
+  color:azure;
+  font-size: 40px;
+}
+
+p,
+article { 
+  font-family: Helvetica;
+  color:azure;
+  font-size: 28px;
+}
+
+* {
+  font-family: Georgia;
+  list-style: square;
+  text-align: center;
+}
+
+a {
+  color:powderblue;
+}
+a:hover {
+  color: blueviolet;
+}
+
+body {
+  background:#141E30
+}
+
+#git img {
+  height: 450px;
+}
+.no-pic {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-style: italic;
+}
