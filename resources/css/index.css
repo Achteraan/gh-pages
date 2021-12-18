@@ -3,11 +3,10 @@ nav ul {
   top: 0%;
   left: 0%;
   right: 0%;
-  padding: 0px;
-  margin: 0px;
+  margin: 0%;
+  width: 100%;
   list-style: none;
   position: fixed;
-  width: 100%;
   background-color: black;
   overflow: hidden;
 }
@@ -49,9 +48,9 @@ li {
 }
 
 .display-center {
-  padding-top: 150px;
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1 {
